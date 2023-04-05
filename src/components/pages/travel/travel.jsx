@@ -5,14 +5,14 @@ import {PictureCard} from '../../ui/picrure-card/picture-card'
 import pageOne from "../../../images/russian-travel/1.png"
 import pagetwo from "../../../images/russian-travel/2.png"
 import pageThree from "../../../images/russian-travel/3.png"
-import pagefour from "../../../images/russian-travel/3.png"
+import pagefour from "../../../images/russian-travel/4.png"
 
 export const RussianTravel = () => {
     return (
         <section>
             <TemplatePage 
             title="Путешествие по России" 
-            text="Описание: небольшой Адаптивный лендинг,где используется методология БЭМ"
+            text="Описание: небольшой адаптивный лендинг,где используется методология БЭМ"
             demo="https://lexorv.github.io/russian-travel"
             git="https://github.com/LexorV/russian-travel"
             > 
