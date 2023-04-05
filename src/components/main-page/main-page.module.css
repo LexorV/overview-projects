@@ -42,3 +42,21 @@
 .link:hover {
     opacity: 0.7;
 }
+@media screen and (max-width: 500px) {
+    .hending {
+        font-size: 22px;
+    }
+    .link {
+        font-size: 18px;
+    }
+    .card_heading {
+        font-size: 22px;
+    }
+    .main {
+        max-width: 500px;
+    }
+    .card {
+        max-width: 300px;
+    }
+    }
+  

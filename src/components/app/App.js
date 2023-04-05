@@ -8,6 +8,8 @@ import {Bicycles} from '../pages/bicycles'
 import { ReactBurger } from '../pages/react-burger'
 import { Algososh } from '../pages/algososh'
 import {Kitchen} from '../pages/kitchen'
+import {Kupipodariday} from '../pages/kupipodariday'
+import { Techanddev } from '../pages/techanddev'
 
 
  
@@ -36,6 +38,13 @@ function App() {
         </Route>
         <Route path="/when-i-grow-up" exact>
           <Kitchen />
+        </Route>
+        <Route path="/kupipodariday" exact>
+          <Kupipodariday />
+        </Route>
+
+        <Route path="/tech-and-dev" exact>
+          <Techanddev />
         </Route>
 
       </Switch>
