@@ -11,7 +11,7 @@ export const Kupipodariday = () => {
     return (
         <section>
               <TemplatePage 
-            title="Mesto" 
+            title="Купи-подари-дари" 
             text="Описание:
             Сервис, где каждый зарегистрированный пользователь может рассказать 
             о том, какой подарок он бы хотел получить,
@@ -19,8 +19,8 @@ export const Kupipodariday = () => {
               указав сумму, которую готов на это потратить.
             Задача стояла написать только backend, организовать контейнеризацию проекта 
             и его деплой на сервер(включая конфигурирование сервера). Frontend уже готовый."
-            demo="https://lexorv.github.io/mesto-project"
-            git="https://github.com/LexorV/mesto-project"
+            demo="https://kupipodariday.lex-v.ru"
+            git="https://github.com/LexorV/kupipodariday-backend"
             > 
 
             <PictureCard 

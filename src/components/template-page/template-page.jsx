@@ -9,8 +9,8 @@ export const TemplatePage = ({title, text, demo, git, children}) => {
             <div className={styles.text_box}>
             <p>{text}</p>
             <div className={styles.link_box}>
-            {demo && (<a className={styles.link} href={demo}>Demo</a>)}
-            {git && (<a className={styles.link} href={git}>Git</a>)}
+            {demo && (<a className={styles.link} href={demo}>Ссылка на Demo проекта</a>)}
+            {git && (<a className={styles.link} href={git}>Ссылка на Git проекта</a>)}
             </div>
             </div>
             <div className={styles.children_box}>

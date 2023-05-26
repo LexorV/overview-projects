@@ -17,8 +17,8 @@ export const Algososh = () => {
             title="Алгоритмы" 
             text="React приложение визуального отображения наиболее популярных алгоритмов. 
             Покрытие проекта юнит-тестами и E2E тестами."
-            demo="https://lexorv.github.io/mesto-project"
-            git="https://github.com/LexorV/mesto-project"
+            demo= "https://algososh.lex-v.ru"
+            git="https://github.com/LexorV/algososh"
             > 
              <PictureCard 
             description="Главная страница"
