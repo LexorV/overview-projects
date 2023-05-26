@@ -13,6 +13,7 @@
     background-color: aliceblue;
     padding: 8px;
     border-radius: 6px;
+    width: 880px;
 }
 .card_box {
     display: flex;
@@ -42,7 +43,15 @@
 .link:hover {
     opacity: 0.7;
 }
+@media screen and (max-width: 899px) {
+    .text_box {
+        width: 420px;
+    }
+}
 @media screen and (max-width: 500px) {
+    .text_box {
+        width: 320px;
+    }
     .hending {
         font-size: 22px;
     }
@@ -59,4 +68,4 @@
         max-width: 300px;
     }
     }
-  
+
